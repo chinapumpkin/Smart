@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/list_padding"
+    android:paddingTop="@dimen/list_padding">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_marginLeft="@dimen/icon_padding"
+        android:layout_marginRight="@dimen/icon_left_margin"
+        android:src="@drawable/camera" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/text_padding"
+            android:text="Home"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/text_mainsize" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/text_padding"
+            android:text="small default value"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/text_subsize" />
+    </LinearLayout>
+
+
+</LinearLayout>
