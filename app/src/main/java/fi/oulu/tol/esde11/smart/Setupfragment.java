@@ -21,6 +21,7 @@ public class Setupfragment extends Fragment  {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View thisFragment = inflater.inflate(R.layout.fragment_setup, container, false);
         setUpMapIfNeed();
+        /****/
         return thisFragment;
     }
 
