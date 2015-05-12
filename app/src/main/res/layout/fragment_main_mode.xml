@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
     <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        >
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,23 +18,24 @@
         android:layout_height="wrap_content"
         android:text="None"
         android:textSize="@dimen/text_mainsize"
-        android:id="@+id/radioButton1"
+        android:id="@+id/radioNone"
+
         android:layout_gravity="center_vertical"
-        android:checked="false" />
+        android:checked="true" />
 
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Party"
         android:textSize="@dimen/text_mainsize"
-        android:id="@+id/radioButton2"
+        android:id="@+id/radioParty"
         android:checked="false" />
 
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TV/Movie"
-        android:id="@+id/radioButton3"
+        android:id="@+id/radioTv"
         android:textSize="@dimen/text_mainsize"
         android:layout_gravity="center_vertical"
         android:checked="false" />
@@ -42,7 +45,7 @@
         android:layout_height="wrap_content"
         android:text="Sleep"
         android:textSize="@dimen/text_mainsize"
-        android:id="@+id/radioButton4"
+        android:id="@+id/radioSleep"
         android:checked="false" />
 
     <RadioButton
@@ -50,15 +53,15 @@
         android:layout_height="wrap_content"
         android:text="Leaving"
         android:textSize="@dimen/text_mainsize"
-        android:id="@+id/radioButton5"
+        android:id="@+id/radioLeaving"
         android:checked="false" />
 
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Home"
+        android:text="Back Home"
         android:textSize="@dimen/text_mainsize"
-        android:id="@+id/radioButton6"
+        android:id="@+id/radioBack"
         android:checked="false" />
     </RadioGroup>
 </LinearLayout>

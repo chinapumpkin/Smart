@@ -16,6 +16,7 @@ public class MainmodeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View thisFragment = inflater.inflate(R.layout.fragment_main_mode, container, false);
+
         return thisFragment;
 
     }
