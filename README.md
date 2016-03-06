@@ -1,5 +1,5 @@
 # SmartHome application
-This is an Android application which imitated [SmartThings][https://www.smartthings.com/]    
+This is an Android application which imitated [SmartThings](https://www.smartthings.com/)   
 ##function   
 Smart home is Android App for controlling home lighting control, remote control, whole home audio/video IR Distribution, Security.    
 #other part
